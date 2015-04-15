@@ -5,6 +5,14 @@
   "keywords": [
     "harmonictheme"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/es6rocks/harmonic-theme-default.git"
+  },
   "author": "Jaydson Gomes",
-  "license": "MIT"
+  "license": "MIT",
+    "bugs": {
+    "url": "https://github.com/es6rocks/harmonic-theme-default/issues"
+  },
+  "homepage": "https://github.com/es6rocks/harmonic-theme-default"
 }
