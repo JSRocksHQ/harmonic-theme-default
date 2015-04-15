@@ -2,6 +2,9 @@
   "name": "harmonic-theme-default",
   "version": "1.1.0",
   "description": "Default Harmonic theme",
+  "keywords": [
+    "harmonictheme"
+  ],
   "author": "Jaydson Gomes",
   "license": "MIT"
 }
