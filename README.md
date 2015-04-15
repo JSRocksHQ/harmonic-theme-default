@@ -1,5 +1,5 @@
 # harmonic-theme-default
-Default Harmonic theme
+Default [Harmonic](https://github.com/es6rocks/harmonic) theme
 
 Install:
 ```bash
