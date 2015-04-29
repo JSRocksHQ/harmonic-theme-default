@@ -1,11 +1,9 @@
 <nav class="social">
-    <ul class="flags">
-        {% for flag in config.i18n.languages %}
-            <li>
-                <a href="{% if flag ==  config.i18n.default %}/ {% else %}/{{ flag }}{% endif %}">
-                    <img src="/images/flag-{{ flag }}.jpg">
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
+    {% for flag in config.i18n.languages %}
+        <span>
+            <a href="{% if flag ==  config.i18n.default %}/ {% else %}/{{ flag }}{% endif %}">
+                {{ flag }}
+            </a>
+        </span>
+    {% endfor %}
 </nav>
